@@ -10141,7 +10141,9 @@ function isInDomains(domain_dict, host) {
 	}
 }
 function FindProxyForURL(url, host) {
+    // 要访问网站的完整URL
 	url=""+url;
+    // 要访问网站的host，不包括端口号
 	host=""+host;
 	if ( isPlainHostName(host) === true ) {
 		return direct;
