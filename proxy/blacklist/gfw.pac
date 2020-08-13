@@ -11036,5 +11036,12 @@ function FindProxyForURL(url, host) {
         return direct;
     }
 
+    if ( isInNet(myIpAddress(), "172.18.0.0", "255.255.0.0")) {
+        return "SOCKS5 172.18.28.22:10869; DIRECT; ";
+    }
+    if ( isInNet(myIpAddress(), "192.168.100.0", "255.255.255.0")) {
+        return "SOCKS5 192.168.100.88:10869; DIRECT; ";
+    }
+
     return proxy;
 }
