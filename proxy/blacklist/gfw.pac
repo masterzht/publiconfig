@@ -5590,6 +5590,13 @@ var rules = [
 var lastRule = '';
 
 function FindProxyForURL(url, host) {
+    if (isInNet(myIpAddress(), "172.18.0.0", "255.255.0.0")) {
+        proxy = "SOCKS5 172.18.28.22:10869; DIRECT; ";
+    }
+    if (isInNet(myIpAddress(), "192.168.100.0", "255.255.255.0")) {
+        proxy = "SOCKS5 192.168.100.88:10869; DIRECT; ";
+    }
+    // alert("url = " + url + " *** host = " + host + " *** myIpAddress= " + myIpAddress() + " *** 代理= " + proxy);
     for (var i = 0; i < rules.length; i++) {
         ret = testHost(host, i);
         if (ret != undefined)
@@ -5600,13 +5607,7 @@ function FindProxyForURL(url, host) {
 
 function testHost(host, index) {
     for (var i = 0; i < rules[index].length; i++) {
-        if (isInNet(myIpAddress(), "172.18.0.0", "255.255.0.0")) {
-            proxy = "SOCKS5 172.18.28.22:10869; DIRECT; ";
-        }
-        if (isInNet(myIpAddress(), "192.168.100.0", "255.255.255.0")) {
-            proxy = "SOCKS5 192.168.100.88:10869; DIRECT; ";
-        }
-        alert("url = " + url + " *** host = " + host + " *** myIpAddress= " + myIpAddress());
+
 
         for (var j = 0; j < rules[index][i].length; j++) {
             lastRule = rules[index][i][j];
