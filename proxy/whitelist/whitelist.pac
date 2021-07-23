@@ -10258,12 +10258,6 @@ function isInDomains(domain_dict, host) {
 	}
 }
 function FindProxyForURL(url, host) {
-    if (isInNet(myIpAddress(), "172.18.0.0", "255.255.0.0")) {
-        wall_proxy = "SOCKS5 172.18.28.22:10869; DIRECT; ";
-    }
-    if (isInNet(myIpAddress(), "192.168.100.0", "255.255.255.0")) {
-        wall_proxy = "SOCKS5 192.168.100.88:10869; DIRECT; ";
-    }
 	url=""+url;
 	host=""+host;
 	if ( isPlainHostName(host) === true ) {
