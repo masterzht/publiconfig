@@ -1,4 +1,6 @@
 # 配置个人环境的直连地址
 
 # 关键词
-DOMAIN-KEYWORD,hdkj123
+DOMAIN-SUFFIX,hdkj123.com
+DOMAIN-SUFFIX,hdkj123.cn
+
