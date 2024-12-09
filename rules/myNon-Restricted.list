@@ -1,3 +1,4 @@
 # 配置限制固定节点访问的地址
 
 DOMAIN-SUFFIX,prodregistryv2.org
+DOMAIN-SUFFIX,claudeusercontent.com
