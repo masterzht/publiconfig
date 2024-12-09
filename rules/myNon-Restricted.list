@@ -1,4 +1,6 @@
-# 配置限制固定节点访问的地址
+## 配置限制固定节点访问的地址
 
 DOMAIN-SUFFIX,prodregistryv2.org
+# claude需要
 DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,codefi.network
