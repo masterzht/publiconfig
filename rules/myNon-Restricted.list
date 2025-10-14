@@ -4,9 +4,6 @@ DOMAIN-SUFFIX,prodregistryv2.org
 # claude需要
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,codefi.network
-# google区域判断域名
-DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
-DOMAIN-SUFFIX,clients6.google.com
 # grok
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
