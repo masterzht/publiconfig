@@ -1,9 +1,8 @@
 ## 配置限制us节点访问的地址
 
-# google区域判断域名
+# google区域判断域名+gemini
 DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
 DOMAIN-SUFFIX,clients6.google.com
-# gemini
 DOMAIN,ai.google.dev
 DOMAIN,makersuite.google.com
 DOMAIN-SUFFIX,bard.google.com
