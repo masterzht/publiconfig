@@ -12,6 +12,7 @@ DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN,sydney.bing.com
 DOMAIN-SUFFIX,ai.azure.com
 DOMAIN-SUFFIX,anthropic.com
+# Auth0 身份验证服务（OpenAI/Claude 等使用）
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,claude.ai
