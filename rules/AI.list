@@ -40,6 +40,13 @@ DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,x.ai
 
+# NAME: grok
+# AUTHOR: 自己收集
+PROCESS-NAME,grok
+DOMAIN-KEYWORD,grok
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+
 # NAME: OpenAI
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
