@@ -3,9 +3,6 @@
 DOMAIN-SUFFIX,prodregistryv2.org
 # 国际版deepseek
 DOMAIN-SUFFIX,deepseek.com
-# claude需要
-DOMAIN-SUFFIX,claudeusercontent.com
-DOMAIN-SUFFIX,codefi.network
 # grok
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
