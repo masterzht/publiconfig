@@ -1,8 +1,6 @@
 # 内容：内容：AI平台-国外-去除google的
 # REPO: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list
 # 数量：47条
-DOMAIN-KEYWORD,anthropic
-DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,openai
 DOMAIN,api.githubcopilot.com
 DOMAIN,api.groq.com
