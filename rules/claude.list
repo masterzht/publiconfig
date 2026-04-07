@@ -1,1 +1,10 @@
+# 关键字匹配
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
 
+# 域名后缀匹配
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,codefi.network
