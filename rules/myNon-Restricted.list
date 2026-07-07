@@ -24,3 +24,5 @@ DOMAIN-SUFFIX,bytedapm.com
 # chatgpt
 DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-KEYWORD,openai
+# cloudflare
+DOMAIN-KEYWORD,cloudflare
